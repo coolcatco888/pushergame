@@ -1,2 +1,2 @@
-# pusherunity
-Pusher Game Using Unity
+# pushergame
+Pusher Game
