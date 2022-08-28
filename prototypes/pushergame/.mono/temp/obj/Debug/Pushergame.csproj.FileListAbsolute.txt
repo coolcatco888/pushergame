@@ -1,0 +1,9 @@
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/bin/Debug/Pushergame.dll
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/bin/Debug/Pushergame.pdb
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.csproj.AssemblyReference.cache
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.GeneratedMSBuildEditorConfig.editorconfig
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.AssemblyInfoInputs.cache
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.AssemblyInfo.cs
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.csproj.CoreCompileInputs.cache
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.dll
+/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/.mono/temp/obj/Debug/Pushergame.pdb

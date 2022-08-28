@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "016s1nAuahmNqlveYhdNUsU7iNHrPo/3NEz59U57zZqAlLGcpvudclMObXKlZfpmz/RxKwJEig56a+SRnw/t/A==",
+  "success": true,
+  "projectFilePath": "/media/LinuxData/GodotProjects/pushergame/prototypes/pushergame/Pushergame.csproj",
+  "expectedPackageFiles": [
+    "/home/cley/snap/gd-godot-engine-mono-snapcraft/21/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/home/cley/snap/gd-godot-engine-mono-snapcraft/21/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.2/microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

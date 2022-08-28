@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/RollieBall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://code/RollieBall.cs" type="Script" id=2]
 
 [sub_resource type="BoxShape" id=1]
 
@@ -25,7 +26,7 @@ mesh = SubResource( 2 )
 material/0 = null
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.0225319, -0.303451, 0.952581, 0.0071757, 0.952847, 0.303366, -0.99972, 4.65791e-10, 0.023647, 5.17015, 1.9634, 0 )
+transform = Transform( 0.999981, -0.00613834, 0.000681356, 0.00574913, 0.965481, 0.260409, -0.00225632, -0.260401, 0.965498, -1.06002, 10.545, 20.6942 )
 
 [node name="Ground" type="StaticBody" parent="."]
 
@@ -38,3 +39,4 @@ material/0 = null
 
 [node name="RollieBall" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.89699, 1.50001, -2.50494 )
+script = ExtResource( 2 )
