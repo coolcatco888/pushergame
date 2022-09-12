@@ -26,9 +26,6 @@ shape = SubResource( 1 )
 mesh = SubResource( 2 )
 material/0 = null
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 0.999981, -0.00613834, 0.000681356, 0.00574913, 0.965481, 0.260409, -0.00225632, -0.260401, 0.965498, -1.06002, 10.545, 20.6942 )
-
 [node name="Ground" type="StaticBody" parent="."]
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground"]
@@ -41,6 +38,9 @@ material/0 = null
 [node name="RollieBall" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.89699, 1.50001, -2.50494 )
 script = ExtResource( 2 )
+
+[node name="Camera" type="Camera" parent="RollieBall"]
+transform = Transform( 0.999981, -0.00613834, 0.000681355, 0.00574913, 0.965481, 0.26041, -0.00225632, -0.260401, 0.965498, 1.83697, 9.04499, 23.1991 )
 
 [node name="Duck" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.59409, 0.50001, 7.23126 )

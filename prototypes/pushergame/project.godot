@@ -14,6 +14,12 @@ config/name="Pushergame"
 run/main_scene="res://maps/Level Test.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/resizable=false
+
 [physics]
 
 common/enable_pause_aware_picking=true
