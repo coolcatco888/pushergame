@@ -9,15 +9,18 @@ public class RollieBall : KinematicBody
 
     private Vector3 velocity = new Vector3();
 
+    private MeshInstance meshInstance = new MeshInstance();
+
     private const int speed = 5;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-	}
+        this.meshInstance = this.GetNode<MeshInstance>("MeshInstance");
+    }
 
     // Called every frame. 'delta' is the elapsed time since the previous frame.
-    public override void _Process(float delta)
+    public override void _PhysicsProcess(float delta)
     {
 
         if (Input.IsActionPressed("ui_right") && Input.IsActionPressed("ui_left")) 
@@ -27,10 +30,12 @@ public class RollieBall : KinematicBody
         else if (Input.IsActionPressed("ui_right")) 
         {
             velocity.x = speed;
+            this.meshInstance.RotateZ(ConvertDegreesToRadians(-speed));
         } 
         else if (Input.IsActionPressed("ui_left")) 
         {
             velocity.x = -speed;
+            this.meshInstance.RotateZ(ConvertDegreesToRadians(speed));
         }
         else 
         {
@@ -44,10 +49,12 @@ public class RollieBall : KinematicBody
         else if (Input.IsActionPressed("ui_up")) 
         {
             velocity.z = -speed;
+            this.meshInstance.RotateX(ConvertDegreesToRadians(-speed));
         } 
         else if (Input.IsActionPressed("ui_down")) 
         {
             velocity.z = speed;
+            this.meshInstance.RotateX(ConvertDegreesToRadians(speed));
         }
         else 
         {
@@ -64,5 +71,11 @@ public class RollieBall : KinematicBody
         }
 
         this.MoveAndSlide(velocity);
+    }
+
+    private static float ConvertDegreesToRadians(float degrees)
+    {
+        float radians = ((float)Math.PI / 180) * degrees;
+        return radians;
     }
 }
